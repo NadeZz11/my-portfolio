@@ -1,0 +1,93 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,#5d89bd,#fff);
+    /* background-color: #5d89bd; */
+    height: auto;
+    padding: 75px;
+    
+}
+/* .text-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 84px;
+    font-weight: bold;
+    background: local;
+
+    color:#c8dded;
+} */
+.img-about{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    margin: 50px 50px 0px 50px;
+    box-shadow: #c8dded 0em 0.1em 0.7em;
+    background: local;
+}
+.about-child{
+    background-color: #5d89bd;
+    height: 70vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0px 8%;
+    padding: 20px;
+    gap: 5%;
+    /* background: local; */
+    border: 2px solid #5d89bd;
+    border-radius: 25px;
+}
+.about-icon{
+    background: local;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+.about-icon a{
+    background: none;
+}
+.icon{
+    background-color: #32476f;
+    border: 5px solid #32476f;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: #c8dded 0em 0.1em 0.8em;
+}
+
+.icon:hover{
+    background-color: #c8dded;
+    border: 5px solid #c8dded;
+    color: #32476f;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.about-box-right{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+    background: local;
+    background-image: linear-gradient(to bottom,rgba(200, 221, 237,1),rgba(200, 221, 237,1),rgba(200, 221, 237,1),rgba(200, 221, 237,0));
+    /* background-color: #c8dded; */
+    height: 60vh;
+    width: 65vh;
+    /* border-top: 10px solid #5d89bd;
+    border-bottom: 5px solid #5d89bd; */
+    border-radius: 15px;
+}
+/* .about-child-text{
+    background: local;
+    padding: 10px;
+    font-size: 28px;
+} */
+.about-box-right div{
+    background: local;
+    padding: 10px;
+    font-size: 28px;
+}

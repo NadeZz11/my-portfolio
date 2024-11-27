@@ -1,0 +1,57 @@
+
+.activities-container{
+    background-color: #9593c8;
+    height: 90vh;
+}
+.activities-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    gap: 30px;
+}
+.activities-img{
+    padding: 2rem;
+    background: none;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    background: none;
+    /* width: 80%; */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 5/4;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 2rem;
+    transition: transform 0.7s ease-in-out;
+    
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    height: 100%;
+    
+}
+.activities-text{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 42px;
+    
+}
+.active-slide {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
